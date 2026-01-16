@@ -6,8 +6,8 @@
     
     <!-- SEO Meta Tags -->
     <title>Titan Iron Works | Custom Ornamental Iron Doors in Dallas-Fort Worth</title>
-    <meta name="description" content="Handcrafted ornamental iron doors by master craftsmen. Titan Iron Works combines traditional techniques with modern elegance. Serving Dallas-Fort Worth area.">
-    <meta name="keywords" content="ornamental iron doors, custom iron doors, wrought iron doors, Dallas iron works, Fort Worth metal doors">
+    <meta name="description" content="Handcrafted ornamental iron doors by master craftsmen. Titan Iron Works combines traditional techniques with modern elegance. Classic doors, custom doors, and complete customization. Serving Dallas-Fort Worth area.">
+    <meta name="keywords" content="ornamental iron doors, custom iron doors, wrought iron doors, Dallas iron works, Fort Worth metal doors, classic doors, custom doors, iron door gallery, jamb shapes, transoms, sidelights">
     <meta name="author" content="Titan Iron Works">
     <meta name="robots" content="index, follow">
     
@@ -18,20 +18,25 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.titanironworks.com/">
     <meta property="og:title" content="Titan Iron Works | Custom Ornamental Iron Doors">
-    <meta property="og:description" content="Handcrafted ornamental iron doors by master craftsmen.">
+    <meta property="og:description" content="Let our design team at TITAN help make your door dreams come true. Classic doors and custom designs.">
+    <meta property="og:image" content="https://www.titanironworks.com/images/hero.webp">
     <meta property="og:locale" content="en_US">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Titan Iron Works | Custom Ornamental Iron Doors">
+    <meta name="twitter:description" content="Let our design team at TITAN help make your door dreams come true.">
     
     <!-- Theme -->
     <meta name="theme-color" content="#1a1a1a">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="images/logo.webp">
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Schema.org -->
     <script type="application/ld+json">
@@ -39,7 +44,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Titan Iron Works",
-        "description": "Custom ornamental iron doors handcrafted with traditional techniques.",
+        "description": "Custom ornamental iron doors handcrafted with traditional techniques. Classic doors and custom designs for homes in the Dallas-Fort Worth area.",
         "telephone": "+1-214-650-3799",
         "email": "contacto@ironworks.com",
         "address": {
@@ -48,7 +53,9 @@
             "addressRegion": "TX",
             "addressCountry": "US"
         },
-        "sameAs": ["https://www.facebook.com/TITAN-Ironworks"]
+        "sameAs": ["https://www.facebook.com/TITAN-Ironworks"],
+        "priceRange": "$$$",
+        "openingHours": "Mo-Fr 08:00-18:00"
     }
     </script>
     
@@ -56,17 +63,17 @@
         :root {
             --color-primary: #1a1a1a;
             --color-secondary: #2d2d2d;
-            --color-accent: #c9a962;
-            --color-accent-light: #e8d5a3;
-            --color-accent-dark: #9a7b3c;
+            --color-accent: #8b7355;
+            --color-accent-light: #a89070;
+            --color-accent-dark: #6b5640;
             --color-white: #ffffff;
-            --color-off-white: #f8f7f4;
+            --color-off-white: #f5f5f3;
             --color-gray-light: #e5e5e5;
             --color-gray: #888888;
             --color-text: #333333;
             --color-text-light: #666666;
             
-            --font-display: 'Cormorant Garamond', Georgia, serif;
+            --font-display: 'Cinzel', Georgia, serif;
             --font-body: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
             
             --space-xs: 0.5rem;
@@ -82,8 +89,8 @@
             --transition-slow: 0.5s ease;
             
             --container-max: 1400px;
-            --container-padding: 1.5rem;
-            --header-height: 80px;
+            --container-padding: 1.25rem;
+            --header-height: 70px;
         }
         
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -110,217 +117,290 @@
         
         h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); font-weight: 500; line-height: 1.2; color: var(--color-primary); }
         
-        .section-subtitle { font-family: var(--font-body); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-accent); margin-bottom: var(--space-sm); }
-        .section-title { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: var(--space-md); }
-        .section-description { font-size: 1.1rem; color: var(--color-text-light); max-width: 600px; }
+        .section-subtitle { font-family: var(--font-body); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-accent); margin-bottom: var(--space-sm); }
+        .section-title { font-size: clamp(1.75rem, 5vw, 3rem); margin-bottom: var(--space-md); letter-spacing: 0.05em; }
+        .section-description { font-size: 1rem; color: var(--color-text-light); max-width: 600px; line-height: 1.8; }
         
         /* Buttons */
-        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 1rem 2rem; font-family: var(--font-body); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; border-radius: 0; transition: all var(--transition-base); }
-        .btn-primary { background-color: var(--color-accent); color: var(--color-primary); }
-        .btn-primary:hover { background-color: var(--color-accent-dark); transform: translateY(-2px); }
-        .btn-secondary { background-color: transparent; color: var(--color-white); border: 1px solid var(--color-white); }
-        .btn-secondary:hover { background-color: var(--color-white); color: var(--color-primary); }
+        .btn { 
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 0.5rem; 
+            padding: 0.875rem 1.75rem; 
+            font-family: var(--font-body); 
+            font-size: 0.8rem; 
+            font-weight: 500; 
+            letter-spacing: 0.15em; 
+            text-transform: uppercase; 
+            border-radius: 2px; 
+            transition: all var(--transition-base); 
+            border: 1px solid transparent;
+        }
+        .btn-primary { background-color: var(--color-accent); color: var(--color-white); border-color: var(--color-accent); }
+        .btn-primary:hover { background-color: var(--color-accent-dark); border-color: var(--color-accent-dark); transform: translateY(-2px); }
+        .btn-secondary { background-color: rgba(255,255,255,0.1); color: var(--color-white); border: 1px solid rgba(255,255,255,0.5); backdrop-filter: blur(4px); }
+        .btn-secondary:hover { background-color: var(--color-white); color: var(--color-primary); border-color: var(--color-white); }
         .btn-outline { background-color: transparent; color: var(--color-primary); border: 1px solid var(--color-primary); }
         .btn-outline:hover { background-color: var(--color-primary); color: var(--color-white); }
+        .btn-outline-light { background-color: transparent; color: var(--color-white); border: 1px solid rgba(255,255,255,0.6); }
+        .btn-outline-light:hover { background-color: var(--color-white); color: var(--color-primary); }
         
         /* Header */
         .header { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background-color: transparent; transition: all var(--transition-base); }
-        .header.scrolled { background-color: rgba(26, 26, 26, 0.98); backdrop-filter: blur(10px); box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); }
+        .header.scrolled { background-color: rgba(26, 26, 26, 0.95); backdrop-filter: blur(10px); box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15); }
         .header__container { display: flex; align-items: center; justify-content: space-between; height: var(--header-height); }
-        .header__logo { display: flex; align-items: center; gap: 0.75rem; }
-        .header__logo-icon { width: 45px; height: 45px; }
-        .header__logo-text { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; color: var(--color-white); letter-spacing: 0.05em; }
-        .header__logo-text span { color: var(--color-accent); }
+        .header__logo { display: flex; align-items: center; gap: 0.5rem; }
+        .header__logo-img { height: 45px; width: auto; }
         
         .nav { display: none; }
         .nav__list { display: flex; gap: var(--space-lg); }
-        .nav__link { font-size: 0.85rem; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-white); position: relative; padding: 0.5rem 0; }
-        .nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: var(--color-accent); transition: width var(--transition-base); }
+        .nav__link { font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-white); position: relative; padding: 0.5rem 0; }
+        .nav__link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background-color: var(--color-accent-light); transition: width var(--transition-base); }
         .nav__link:hover::after, .nav__link.active::after { width: 100%; }
         
         .header__actions { display: flex; align-items: center; gap: var(--space-md); }
         .header__cta { display: none; }
         
-        .menu-toggle { display: flex; flex-direction: column; justify-content: center; gap: 5px; width: 30px; height: 30px; z-index: 1001; }
-        .menu-toggle__bar { width: 100%; height: 2px; background-color: var(--color-white); transition: all var(--transition-fast); }
+        .menu-toggle { display: flex; flex-direction: column; justify-content: center; gap: 5px; width: 28px; height: 28px; z-index: 1001; }
+        .menu-toggle__bar { width: 100%; height: 2px; background-color: var(--color-white); transition: all var(--transition-fast); border-radius: 1px; }
         .menu-toggle.active .menu-toggle__bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
         .menu-toggle.active .menu-toggle__bar:nth-child(2) { opacity: 0; }
         .menu-toggle.active .menu-toggle__bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
         
         /* Mobile Nav */
-        .mobile-nav { position: fixed; top: 0; right: -100%; width: 100%; height: 100vh; background-color: var(--color-primary); z-index: 999; display: flex; flex-direction: column; justify-content: center; align-items: center; transition: right var(--transition-slow); }
+        .mobile-nav { position: fixed; top: 0; right: -100%; width: 100%; height: 100vh; height: 100dvh; background-color: var(--color-primary); z-index: 999; display: flex; flex-direction: column; justify-content: center; align-items: center; transition: right var(--transition-slow); }
         .mobile-nav.active { right: 0; }
         .mobile-nav__list { display: flex; flex-direction: column; align-items: center; gap: var(--space-lg); }
-        .mobile-nav__link { font-family: var(--font-display); font-size: 2rem; color: var(--color-white); transition: color var(--transition-fast); }
-        .mobile-nav__link:hover { color: var(--color-accent); }
+        .mobile-nav__link { font-family: var(--font-display); font-size: 1.5rem; color: var(--color-white); transition: color var(--transition-fast); letter-spacing: 0.1em; }
+        .mobile-nav__link:hover { color: var(--color-accent-light); }
         .mobile-nav__contact { margin-top: var(--space-2xl); text-align: center; }
-        .mobile-nav__phone { display: flex; align-items: center; gap: 0.5rem; font-size: 1.25rem; color: var(--color-accent); margin-bottom: var(--space-md); }
+        .mobile-nav__phone { display: flex; align-items: center; gap: 0.5rem; font-size: 1.1rem; color: var(--color-accent-light); margin-bottom: var(--space-md); }
         .mobile-nav__socials { display: flex; gap: var(--space-md); }
-        .mobile-nav__social { width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--color-white); border-radius: 50%; color: var(--color-white); transition: all var(--transition-fast); }
-        .mobile-nav__social:hover { background-color: var(--color-accent); border-color: var(--color-accent); color: var(--color-primary); }
+        .mobile-nav__social { width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.3); border-radius: 50%; color: var(--color-white); transition: all var(--transition-fast); }
+        .mobile-nav__social:hover { background-color: var(--color-accent); border-color: var(--color-accent); }
         
         /* Hero */
-        .hero { position: relative; min-height: 100vh; display: flex; align-items: center; background-color: var(--color-primary); overflow: hidden; }
+        .hero { position: relative; min-height: 100vh; min-height: 100dvh; display: flex; align-items: center; background-color: var(--color-primary); overflow: hidden; }
         .hero__background { position: absolute; inset: 0; z-index: 1; }
-        .hero__background-image { width: 100%; height: 100%; object-fit: cover; opacity: 0.4; }
-        .hero__overlay { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(26, 26, 26, 0.9) 0%, rgba(26, 26, 26, 0.6) 50%, rgba(26, 26, 26, 0.8) 100%); }
-        .hero__content { position: relative; z-index: 2; padding: calc(var(--header-height) + var(--space-2xl)) 0 var(--space-2xl); }
-        .hero__badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background-color: rgba(201, 169, 98, 0.15); border: 1px solid var(--color-accent); margin-bottom: var(--space-md); animation: fadeInUp 0.8s ease forwards; }
-        .hero__badge-text { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent); }
-        .hero__title { font-size: clamp(2.5rem, 8vw, 5rem); color: var(--color-white); margin-bottom: var(--space-md); animation: fadeInUp 0.8s ease 0.2s forwards; opacity: 0; }
-        .hero__title span { display: block; color: var(--color-accent); font-style: italic; }
-        .hero__description { font-size: clamp(1rem, 2vw, 1.25rem); color: var(--color-gray-light); max-width: 500px; margin-bottom: var(--space-xl); line-height: 1.8; animation: fadeInUp 0.8s ease 0.4s forwards; opacity: 0; }
-        .hero__buttons { display: flex; flex-wrap: wrap; gap: var(--space-sm); animation: fadeInUp 0.8s ease 0.6s forwards; opacity: 0; }
+        .hero__background-image { width: 100%; height: 100%; object-fit: cover; opacity: 0.6; }
+        .hero__overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(26, 26, 26, 0.4) 0%, rgba(26, 26, 26, 0.7) 100%); }
+        .hero__content { position: relative; z-index: 2; padding: calc(var(--header-height) + var(--space-xl)) 0 var(--space-2xl); text-align: center; width: 100%; }
+        .hero__logo { max-width: 180px; margin: 0 auto var(--space-lg); }
+        .hero__title { font-size: clamp(2rem, 8vw, 4rem); color: var(--color-white); margin-bottom: var(--space-sm); letter-spacing: 0.15em; animation: fadeInUp 0.8s ease 0.2s forwards; opacity: 0; }
+        .hero__subtitle { font-size: clamp(1rem, 3vw, 1.25rem); color: var(--color-white); font-weight: 300; letter-spacing: 0.1em; margin-bottom: var(--space-xl); animation: fadeInUp 0.8s ease 0.4s forwards; opacity: 0; }
+        .hero__buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-sm); animation: fadeInUp 0.8s ease 0.6s forwards; opacity: 0; }
         .hero__scroll-indicator { position: absolute; bottom: var(--space-lg); left: 50%; transform: translateX(-50%); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; color: var(--color-white); animation: bounce 2s infinite; }
-        .hero__scroll-text { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; }
-        .hero__scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, var(--color-accent), transparent); }
-        .hero__decor { position: absolute; z-index: 1; opacity: 0.1; }
-        .hero__decor--1 { top: 20%; right: 5%; width: 200px; height: 200px; border: 1px solid var(--color-accent); transform: rotate(45deg); }
-        .hero__decor--2 { bottom: 20%; left: 5%; width: 150px; height: 150px; border: 1px solid var(--color-white); border-radius: 50%; }
+        .hero__scroll-text { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.7; }
+        .hero__scroll-line { width: 1px; height: 35px; background: linear-gradient(to bottom, var(--color-white), transparent); }
         
-        /* About */
-        .about { padding: var(--space-3xl) 0; background-color: var(--color-off-white); position: relative; overflow: hidden; }
-        .about::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a962' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); opacity: 0.5; }
-        .about__container { display: grid; gap: var(--space-2xl); position: relative; z-index: 1; }
-        .about__content { max-width: 600px; }
-        .about__text { margin-bottom: var(--space-md); color: var(--color-text-light); }
-        .about__features { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-md); margin-top: var(--space-xl); }
-        .about__feature { display: flex; align-items: flex-start; gap: var(--space-sm); }
-        .about__feature-icon { flex-shrink: 0; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary); color: var(--color-accent); }
-        .about__feature-text h4 { font-family: var(--font-body); font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem; }
-        .about__feature-text p { font-size: 0.875rem; color: var(--color-text-light); }
-        .about__image-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-sm); }
-        .about__image { position: relative; aspect-ratio: 1; overflow: hidden; }
-        .about__image:first-child { grid-row: span 2; aspect-ratio: auto; }
-        .about__image img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow); }
-        .about__image:hover img { transform: scale(1.05); }
+        /* Classic Doors Section */
+        .classic-doors { 
+            position: relative; 
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        .classic-doors__background { position: absolute; inset: 0; z-index: 1; }
+        .classic-doors__background-image { width: 100%; height: 100%; object-fit: cover; }
+        .classic-doors__overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.5); }
+        .classic-doors__content { 
+            position: relative; 
+            z-index: 2; 
+            text-align: center; 
+            padding: var(--space-3xl) 0;
+            width: 100%;
+        }
+        .classic-doors__title { 
+            font-size: clamp(2rem, 7vw, 3.5rem); 
+            color: var(--color-white); 
+            margin-bottom: var(--space-lg); 
+            letter-spacing: 0.15em;
+        }
+        .classic-doors__btn { margin-top: var(--space-sm); }
         
-        /* Services */
-        .services { padding: var(--space-3xl) 0; background-color: var(--color-primary); }
-        .services__header { text-align: center; margin-bottom: var(--space-2xl); }
-        .services__header .section-title { color: var(--color-white); }
-        .services__header .section-description { margin: 0 auto; color: var(--color-gray); }
-        .services__grid { display: grid; gap: var(--space-md); }
-        .service-card { position: relative; aspect-ratio: 3/4; overflow: hidden; cursor: pointer; }
-        .service-card__image { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow); }
-        .service-card__overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(26, 26, 26, 0.95) 0%, rgba(26, 26, 26, 0.3) 50%, transparent 100%); transition: background var(--transition-base); }
-        .service-card:hover .service-card__overlay { background: linear-gradient(to top, rgba(201, 169, 98, 0.9) 0%, rgba(26, 26, 26, 0.5) 50%, rgba(26, 26, 26, 0.3) 100%); }
-        .service-card:hover .service-card__image { transform: scale(1.1); }
-        .service-card__content { position: absolute; bottom: 0; left: 0; right: 0; padding: var(--space-lg); transform: translateY(20px); transition: transform var(--transition-base); }
-        .service-card:hover .service-card__content { transform: translateY(0); }
-        .service-card__title { font-family: var(--font-display); font-size: 1.5rem; color: var(--color-white); margin-bottom: 0.5rem; }
-        .service-card__description { font-size: 0.9rem; color: var(--color-gray-light); opacity: 0; transition: opacity var(--transition-base); margin-bottom: var(--space-sm); }
-        .service-card:hover .service-card__description { opacity: 1; }
-        .service-card__link { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent); opacity: 0; transition: opacity var(--transition-base); }
-        .service-card:hover .service-card__link { opacity: 1; }
-        .services__cta { text-align: center; margin-top: var(--space-2xl); }
+        /* Custom Doors Section */
+        .custom-doors {
+            position: relative;
+            padding: var(--space-3xl) 0;
+            background-color: var(--color-off-white);
+            overflow: hidden;
+        }
+        .custom-doors__background {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+        }
+        .custom-doors__background-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.15;
+        }
+        .custom-doors__content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .custom-doors__title {
+            font-size: clamp(1.75rem, 5vw, 2.5rem);
+            color: var(--color-primary);
+            margin-bottom: var(--space-sm);
+            letter-spacing: 0.1em;
+        }
+        .custom-doors__subtitle {
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            color: var(--color-accent);
+            font-family: var(--font-display);
+            margin-bottom: var(--space-md);
+            letter-spacing: 0.05em;
+        }
+        .custom-doors__text {
+            color: var(--color-text-light);
+            margin-bottom: var(--space-lg);
+            line-height: 1.8;
+        }
+        .custom-doors__text strong {
+            color: var(--color-primary);
+            font-weight: 600;
+        }
         
-        /* Gallery */
+        /* Need Ideas Section */
+        .need-ideas {
+            position: relative;
+            padding: var(--space-3xl) 0;
+            background-color: var(--color-primary);
+            overflow: hidden;
+        }
+        .need-ideas__background {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+        }
+        .need-ideas__background-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.2;
+        }
+        .need-ideas__content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .need-ideas__title {
+            font-size: clamp(1.75rem, 5vw, 2.5rem);
+            color: var(--color-white);
+            margin-bottom: var(--space-md);
+            letter-spacing: 0.1em;
+        }
+        .need-ideas__text {
+            color: var(--color-gray-light);
+            margin-bottom: var(--space-lg);
+            line-height: 1.8;
+        }
+        
+        /* Gallery Section */
         .gallery { padding: var(--space-3xl) 0; background-color: var(--color-white); }
         .gallery__header { text-align: center; margin-bottom: var(--space-2xl); }
         .gallery__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-xs); }
         .gallery__item { position: relative; aspect-ratio: 1; overflow: hidden; cursor: pointer; }
         .gallery__item--large { grid-column: span 2; aspect-ratio: 2/1; }
         .gallery__item img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow); }
-        .gallery__item:hover img { transform: scale(1.1); }
-        .gallery__item-overlay { position: absolute; inset: 0; background-color: rgba(26, 26, 26, 0.7); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity var(--transition-base); }
+        .gallery__item:hover img { transform: scale(1.08); }
+        .gallery__item-overlay { position: absolute; inset: 0; background-color: rgba(26, 26, 26, 0.6); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity var(--transition-base); }
         .gallery__item:hover .gallery__item-overlay { opacity: 1; }
-        .gallery__item-icon { width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border: 2px solid var(--color-white); border-radius: 50%; color: var(--color-white); transform: scale(0.8); transition: transform var(--transition-base); }
+        .gallery__item-icon { width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border: 2px solid var(--color-white); border-radius: 50%; color: var(--color-white); transform: scale(0.8); transition: transform var(--transition-base); }
         .gallery__item:hover .gallery__item-icon { transform: scale(1); }
         .gallery__cta { text-align: center; margin-top: var(--space-xl); }
         
-        /* Testimonials */
-        .testimonials { padding: var(--space-3xl) 0; background-color: var(--color-off-white); }
-        .testimonials__header { text-align: center; margin-bottom: var(--space-2xl); }
-        .testimonials__slider { max-width: 800px; margin: 0 auto; }
-        .testimonial { text-align: center; padding: 0 var(--space-md); }
-        .testimonial__quote-icon { width: 60px; height: 60px; margin: 0 auto var(--space-md); color: var(--color-accent); opacity: 0.3; }
-        .testimonial__text { font-family: var(--font-display); font-size: clamp(1.25rem, 3vw, 1.75rem); font-style: italic; line-height: 1.6; color: var(--color-text); margin-bottom: var(--space-lg); }
-        .testimonial__author { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
-        .testimonial__author-name { font-weight: 600; color: var(--color-primary); }
-        .testimonial__author-title { font-size: 0.875rem; color: var(--color-text-light); }
-        .testimonial__stars { display: flex; gap: 0.25rem; color: var(--color-accent); margin-top: 0.5rem; }
-        
-        /* Contact */
-        .contact { padding: var(--space-3xl) 0; background-color: var(--color-primary); position: relative; overflow: hidden; }
-        .contact::before { content: ''; position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: linear-gradient(135deg, var(--color-accent) 0%, transparent 70%); opacity: 0.05; transform: rotate(-15deg); }
+        /* Contact Section */
+        .contact { padding: var(--space-3xl) 0; background-color: var(--color-secondary); position: relative; overflow: hidden; }
+        .contact::before { content: ''; position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: linear-gradient(135deg, var(--color-accent) 0%, transparent 70%); opacity: 0.03; transform: rotate(-15deg); }
         .contact__container { display: grid; gap: var(--space-2xl); position: relative; z-index: 1; }
         .contact__info { color: var(--color-white); }
         .contact__info .section-title { color: var(--color-white); }
         .contact__info .section-description { color: var(--color-gray); margin-bottom: var(--space-xl); }
         .contact__details { display: flex; flex-direction: column; gap: var(--space-md); }
         .contact__detail { display: flex; align-items: flex-start; gap: var(--space-sm); }
-        .contact__detail-icon { flex-shrink: 0; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background-color: rgba(201, 169, 98, 0.15); color: var(--color-accent); }
-        .contact__detail-content h4 { font-family: var(--font-body); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.25rem; }
-        .contact__detail-content p, .contact__detail-content a { font-size: 1.1rem; color: var(--color-white); }
-        .contact__detail-content a:hover { color: var(--color-accent); }
+        .contact__detail-icon { flex-shrink: 0; width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; background-color: rgba(139, 115, 85, 0.15); color: var(--color-accent-light); border-radius: 2px; }
+        .contact__detail-content h4 { font-family: var(--font-body); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent-light); margin-bottom: 0.25rem; }
+        .contact__detail-content p, .contact__detail-content a { font-size: 1rem; color: var(--color-white); }
+        .contact__detail-content a:hover { color: var(--color-accent-light); }
         .contact__socials { display: flex; gap: var(--space-sm); margin-top: var(--space-xl); }
-        .contact__social { width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255, 255, 255, 0.2); color: var(--color-white); transition: all var(--transition-fast); }
-        .contact__social:hover { background-color: var(--color-accent); border-color: var(--color-accent); color: var(--color-primary); }
+        .contact__social { width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(255, 255, 255, 0.2); color: var(--color-white); transition: all var(--transition-fast); border-radius: 2px; }
+        .contact__social:hover { background-color: var(--color-accent); border-color: var(--color-accent); }
         
         /* Contact Form */
-        .contact__form-wrapper { background-color: var(--color-white); padding: var(--space-xl); }
-        .contact__form-title { font-size: 1.5rem; margin-bottom: var(--space-lg); color: var(--color-primary); }
+        .contact__form-wrapper { background-color: var(--color-white); padding: var(--space-lg); border-radius: 2px; }
+        .contact__form-title { font-size: 1.25rem; margin-bottom: var(--space-md); color: var(--color-primary); }
         .form__group { margin-bottom: var(--space-md); }
-        .form__label { display: block; font-size: 0.85rem; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text); margin-bottom: 0.5rem; }
-        .form__input, .form__textarea { width: 100%; padding: 1rem; font-family: var(--font-body); font-size: 1rem; border: 1px solid var(--color-gray-light); background-color: var(--color-off-white); color: var(--color-text); transition: border-color var(--transition-fast), box-shadow var(--transition-fast); }
-        .form__input:focus, .form__textarea:focus { outline: none; border-color: var(--color-accent); box-shadow: 0 0 0 3px rgba(201, 169, 98, 0.1); }
-        .form__textarea { min-height: 150px; resize: vertical; }
-        .form__submit { width: 100%; padding: 1.25rem; background-color: var(--color-primary); color: var(--color-white); font-size: 0.9rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; border: none; cursor: pointer; transition: background-color var(--transition-fast); }
-        .form__submit:hover { background-color: var(--color-accent); color: var(--color-primary); }
+        .form__label { display: block; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text); margin-bottom: 0.5rem; }
+        .form__input, .form__textarea { width: 100%; padding: 0.875rem; font-family: var(--font-body); font-size: 0.95rem; border: 1px solid var(--color-gray-light); background-color: var(--color-off-white); color: var(--color-text); transition: border-color var(--transition-fast), box-shadow var(--transition-fast); border-radius: 2px; }
+        .form__input:focus, .form__textarea:focus { outline: none; border-color: var(--color-accent); box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.1); }
+        .form__textarea { min-height: 120px; resize: vertical; }
+        .form__submit { width: 100%; padding: 1rem; background-color: var(--color-primary); color: var(--color-white); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; border: none; cursor: pointer; transition: background-color var(--transition-fast); border-radius: 2px; }
+        .form__submit:hover { background-color: var(--color-accent); }
         
         /* Footer */
-        .footer { background-color: var(--color-secondary); padding: var(--space-xl) 0 var(--space-md); }
-        .footer__container { display: flex; flex-direction: column; gap: var(--space-lg); }
-        .footer__top { display: flex; flex-direction: column; align-items: center; gap: var(--space-md); padding-bottom: var(--space-lg); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-        .footer__logo { display: flex; align-items: center; gap: 0.75rem; }
-        .footer__logo-text { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; color: var(--color-white); }
-        .footer__logo-text span { color: var(--color-accent); }
+        .footer { background-color: var(--color-primary); padding: var(--space-lg) 0; border-top: 1px solid rgba(255,255,255,0.1); }
+        .footer__container { display: flex; flex-direction: column; align-items: center; gap: var(--space-md); text-align: center; }
+        .footer__logo { height: 50px; width: auto; margin-bottom: var(--space-xs); }
         .footer__nav { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-sm) var(--space-md); }
-        .footer__nav-link { font-size: 0.9rem; color: var(--color-gray); transition: color var(--transition-fast); }
-        .footer__nav-link:hover { color: var(--color-accent); }
-        .footer__bottom { display: flex; flex-direction: column; align-items: center; gap: var(--space-sm); text-align: center; }
-        .footer__copyright { font-size: 0.875rem; color: var(--color-gray); }
+        .footer__nav-link { font-size: 0.8rem; color: var(--color-gray); transition: color var(--transition-fast); letter-spacing: 0.05em; }
+        .footer__nav-link:hover { color: var(--color-accent-light); }
+        .footer__copyright { font-size: 0.8rem; color: var(--color-gray); }
         
         /* WhatsApp Float */
-        .whatsapp-float { position: fixed; bottom: var(--space-lg); right: var(--space-lg); z-index: 999; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; background-color: #25D366; border-radius: 50%; box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4); transition: all var(--transition-fast); }
-        .whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5); }
-        .whatsapp-float svg { width: 32px; height: 32px; fill: var(--color-white); }
-        .whatsapp-float__tooltip { position: absolute; right: 70px; background-color: var(--color-primary); color: var(--color-white); padding: 0.5rem 1rem; border-radius: 4px; font-size: 0.85rem; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity var(--transition-fast); }
-        .whatsapp-float:hover .whatsapp-float__tooltip { opacity: 1; }
+        .whatsapp-float { position: fixed; bottom: var(--space-md); right: var(--space-md); z-index: 999; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; background-color: #25D366; border-radius: 50%; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); transition: all var(--transition-fast); }
+        .whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5); }
+        .whatsapp-float svg { width: 28px; height: 28px; fill: var(--color-white); }
         
         /* Animations */
         @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); } 40% { transform: translateX(-50%) translateY(-10px); } 60% { transform: translateX(-50%) translateY(-5px); } }
+        @keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); } 40% { transform: translateX(-50%) translateY(-8px); } 60% { transform: translateX(-50%) translateY(-4px); } }
         
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+        .reveal { opacity: 0; transform: translateY(25px); transition: all 0.7s ease; }
         .reveal.active { opacity: 1; transform: translateY(0); }
         
         /* Responsive - Tablet */
         @media (min-width: 768px) {
-            :root { --container-padding: 2rem; }
-            .about__container { grid-template-columns: 1fr 1fr; align-items: center; }
-            .services__grid { grid-template-columns: repeat(2, 1fr); }
-            .gallery__grid { grid-template-columns: repeat(3, 1fr); }
+            :root { --container-padding: 2rem; --header-height: 80px; }
+            .hero__logo { max-width: 220px; }
+            .gallery__grid { grid-template-columns: repeat(3, 1fr); gap: var(--space-sm); }
             .gallery__item--large { grid-column: span 2; }
             .contact__container { grid-template-columns: 1fr 1fr; align-items: start; }
-            .footer__top { flex-direction: row; justify-content: space-between; }
-            .footer__bottom { flex-direction: row; justify-content: space-between; }
         }
         
         /* Responsive - Desktop */
         @media (min-width: 1024px) {
-            :root { --header-height: 100px; }
+            :root { --header-height: 90px; }
             .menu-toggle { display: none; }
             .nav { display: block; }
             .header__cta { display: inline-flex; }
-            .hero__content { max-width: 60%; }
-            .services__grid { grid-template-columns: repeat(4, 1fr); }
+            .hero__logo { max-width: 250px; }
             .gallery__grid { grid-template-columns: repeat(4, 1fr); }
-            .contact__form-wrapper { padding: var(--space-2xl); }
+            .contact__form-wrapper { padding: var(--space-xl); }
         }
         
-        @media (min-width: 1400px) { :root { --container-padding: 3rem; } .hero__decor--1 { width: 300px; height: 300px; } .hero__decor--2 { width: 200px; height: 200px; } }
+        @media (min-width: 1400px) { 
+            :root { --container-padding: 3rem; } 
+        }
+        
+        /* Prefers reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            html { scroll-behavior: auto; }
+        }
     </style>
 </head>
 <body>
@@ -330,27 +410,21 @@
     <header class="header" id="header">
         <div class="container header__container">
             <a href="#" class="header__logo" aria-label="Titan Iron Works - Home">
-                <svg class="header__logo-icon" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="2" y="2" width="46" height="46" stroke="#c9a962" stroke-width="2"/>
-                    <path d="M25 10L40 25L25 40L10 25L25 10Z" fill="none" stroke="#c9a962" stroke-width="1.5"/>
-                    <circle cx="25" cy="25" r="8" fill="none" stroke="#ffffff" stroke-width="1.5"/>
-                    <path d="M25 18V32M18 25H32" stroke="#c9a962" stroke-width="1.5"/>
-                </svg>
-                <span class="header__logo-text">TITAN <span>Iron Works</span></span>
+                <img src="images/logo-header.webp" alt="Titan Iron Works" class="header__logo-img">
             </a>
             
             <nav class="nav" aria-label="Main navigation">
                 <ul class="nav__list">
                     <li><a href="#home" class="nav__link active">Home</a></li>
-                    <li><a href="#about" class="nav__link">About Us</a></li>
-                    <li><a href="#doors" class="nav__link">Our Doors</a></li>
+                    <li><a href="#classic" class="nav__link">Classic Doors</a></li>
+                    <li><a href="#custom" class="nav__link">Custom Doors</a></li>
                     <li><a href="#gallery" class="nav__link">Gallery</a></li>
                     <li><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </nav>
             
             <div class="header__actions">
-                <a href="#contact" class="btn btn-primary header__cta">Free Quote</a>
+                <a href="#contact" class="btn btn-primary header__cta">Contact Us</a>
                 <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
                     <span class="menu-toggle__bar"></span>
                     <span class="menu-toggle__bar"></span>
@@ -364,22 +438,22 @@
     <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
         <ul class="mobile-nav__list">
             <li><a href="#home" class="mobile-nav__link">Home</a></li>
-            <li><a href="#about" class="mobile-nav__link">About Us</a></li>
-            <li><a href="#doors" class="mobile-nav__link">Our Doors</a></li>
+            <li><a href="#classic" class="mobile-nav__link">Classic Doors</a></li>
+            <li><a href="#custom" class="mobile-nav__link">Custom Doors</a></li>
             <li><a href="#gallery" class="mobile-nav__link">Gallery</a></li>
             <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
         </ul>
         <div class="mobile-nav__contact">
             <a href="tel:+12146503799" class="mobile-nav__phone">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                 (214) 650-3799
             </a>
             <div class="mobile-nav__socials">
                 <a href="https://www.facebook.com/TITAN-Ironworks" class="mobile-nav__social" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
                 </a>
                 <a href="https://wa.me/2146503799" class="mobile-nav__social" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.49l4.574-1.2A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.17 0-4.182-.656-5.864-1.782l-.42-.249-2.717.712.726-2.65-.274-.436A9.79 9.79 0 0 1 2.182 12c0-5.422 4.396-9.818 9.818-9.818S21.818 6.578 21.818 12 17.422 21.818 12 21.818z"/></svg>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.49l4.574-1.2A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.17 0-4.182-.656-5.864-1.782l-.42-.249-2.717.712.726-2.65-.274-.436A9.79 9.79 0 0 1 2.182 12c0-5.422 4.396-9.818 9.818-9.818S21.818 6.578 21.818 12 17.422 21.818 12 21.818z"/></svg>
                 </a>
             </div>
         </div>
@@ -389,21 +463,16 @@
         <!-- Hero Section -->
         <section class="hero" id="home">
             <div class="hero__background">
-                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80" alt="Elegant ornamental iron door" class="hero__background-image" loading="eager">
+                <img src="images/hero.webp" alt="Beautiful home entrance with custom iron door" class="hero__background-image" loading="eager">
                 <div class="hero__overlay"></div>
             </div>
-            <div class="hero__decor hero__decor--1"></div>
-            <div class="hero__decor hero__decor--2"></div>
             <div class="container hero__content">
-                <div class="hero__badge">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a962" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                    <span class="hero__badge-text">Handcrafted Excellence</span>
-                </div>
-                <h1 class="hero__title">Make a Grand Entrance<span>To Your Home</span></h1>
-                <p class="hero__description">We specialize in designing and manufacturing ornamental iron doors. Our work is handcrafted with a mixture of traditional techniques complemented by modern applications.</p>
+                <img src="images/logo.webp" alt="Titan Iron Works Logo" class="hero__logo">
+                <h1 class="hero__title">Iron Works</h1>
+                <p class="hero__subtitle">Handcrafted Ornamental Iron Doors</p>
                 <div class="hero__buttons">
-                    <a href="#doors" class="btn btn-primary">Explore Our Doors</a>
-                    <a href="#contact" class="btn btn-secondary">Request a Quote</a>
+                    <a href="#classic" class="btn btn-primary">Classic Doors</a>
+                    <a href="#custom" class="btn btn-secondary">Custom Doors</a>
                 </div>
             </div>
             <div class="hero__scroll-indicator">
@@ -412,89 +481,47 @@
             </div>
         </section>
         
-        <!-- About Section -->
-        <section class="about" id="about">
-            <div class="container about__container">
-                <div class="about__content reveal">
-                    <span class="section-subtitle">About Us</span>
-                    <h2 class="section-title">Crafting Elegance in Iron Since 2010</h2>
-                    <p class="about__text">At Titan Iron Works, we believe every entrance tells a story. Our master craftsmen blend centuries-old ironworking traditions with contemporary design to create doors that are truly one-of-a-kind.</p>
-                    <p class="about__text">Quality and durability have not been overlooked in any of TITAN's door systems, while we offer top-of-the-line elegance and beauty. Whether you are a builder, remodeler, or home buyer, we are excited at the opportunity to work with you.</p>
-                    <div class="about__features">
-                        <div class="about__feature">
-                            <div class="about__feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-                            <div class="about__feature-text"><h4>Quality Guaranteed</h4><p>Premium materials & craftsmanship</p></div>
-                        </div>
-                        <div class="about__feature">
-                            <div class="about__feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-                            <div class="about__feature-text"><h4>Timely Delivery</h4><p>On-schedule project completion</p></div>
-                        </div>
-                        <div class="about__feature">
-                            <div class="about__feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-                            <div class="about__feature-text"><h4>Expert Team</h4><p>Skilled master craftsmen</p></div>
-                        </div>
-                        <div class="about__feature">
-                            <div class="about__feature-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-                            <div class="about__feature-text"><h4>Custom Designs</h4><p>Tailored to your vision</p></div>
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-outline" style="margin-top: var(--space-xl);">Learn More About Us</a>
-                </div>
-                <div class="about__image-grid reveal">
-                    <div class="about__image"><img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80" alt="Craftsman working on ornamental iron" loading="lazy"></div>
-                    <div class="about__image"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Finished iron door" loading="lazy"></div>
-                    <div class="about__image"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80" alt="Elegant home entrance" loading="lazy"></div>
-                </div>
+        <!-- Classic Doors Section -->
+        <section class="classic-doors" id="classic">
+            <div class="classic-doors__background">
+                <img src="images/d-1 (7).webp" alt="Classic iron door design" class="classic-doors__background-image" loading="lazy">
+                <div class="classic-doors__overlay"></div>
+            </div>
+            <div class="container classic-doors__content reveal">
+                <h2 class="classic-doors__title">Classic Doors</h2>
+                <a href="#contact" class="btn btn-outline-light classic-doors__btn">Contact Us</a>
             </div>
         </section>
         
-        <!-- Services Section -->
-        <section class="services" id="doors">
-            <div class="container">
-                <div class="services__header reveal">
-                    <span class="section-subtitle">Our Collection</span>
-                    <h2 class="section-title">Ornamental Iron Doors</h2>
-                    <p class="section-description">Discover our range of handcrafted iron doors, each designed to make a lasting impression and elevate your home's entrance.</p>
-                </div>
-                <div class="services__grid">
-                    <article class="service-card reveal">
-                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Single entry iron door" class="service-card__image" loading="lazy">
-                        <div class="service-card__overlay"></div>
-                        <div class="service-card__content">
-                            <h3 class="service-card__title">Single Entry Doors</h3>
-                            <p class="service-card__description">Classic elegance for standard entrances with customizable designs.</p>
-                            <a href="#" class="service-card__link">View Collection <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                        </div>
-                    </article>
-                    <article class="service-card reveal">
-                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Double entry iron doors" class="service-card__image" loading="lazy">
-                        <div class="service-card__overlay"></div>
-                        <div class="service-card__content">
-                            <h3 class="service-card__title">Double Entry Doors</h3>
-                            <p class="service-card__description">Grand entrances that make a statement with dual door designs.</p>
-                            <a href="#" class="service-card__link">View Collection <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                        </div>
-                    </article>
-                    <article class="service-card reveal">
-                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Custom designed iron door" class="service-card__image" loading="lazy">
-                        <div class="service-card__overlay"></div>
-                        <div class="service-card__content">
-                            <h3 class="service-card__title">Custom Designs</h3>
-                            <p class="service-card__description">Bring your vision to life with our bespoke design service.</p>
-                            <a href="#" class="service-card__link">View Collection <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                        </div>
-                    </article>
-                    <article class="service-card reveal">
-                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80" alt="Wine cellar iron door" class="service-card__image" loading="lazy">
-                        <div class="service-card__overlay"></div>
-                        <div class="service-card__content">
-                            <h3 class="service-card__title">Wine Cellar Doors</h3>
-                            <p class="service-card__description">Specialized doors for wine cellars and special rooms.</p>
-                            <a href="#" class="service-card__link">View Collection <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                        </div>
-                    </article>
-                </div>
-                <div class="services__cta reveal"><a href="#" class="btn btn-primary">View Full Gallery</a></div>
+        <!-- Custom Doors Section -->
+        <section class="custom-doors" id="custom">
+            <div class="custom-doors__background">
+                <img src="images/d-1 (1).webp" alt="Custom iron door craftsmanship" class="custom-doors__background-image" loading="lazy">
+            </div>
+            <div class="container custom-doors__content reveal">
+                <h2 class="custom-doors__title">Custom Doors</h2>
+                <p class="custom-doors__subtitle">Get Creative With Your Design!</p>
+                <p class="custom-doors__text">
+                    Let our design team at <strong>TITAN</strong> help make your door dreams come true. 
+                    Get in touch with our front desk, and we can get started on your complete customization!
+                </p>
+                <a href="#contact" class="btn btn-primary">Contact Us</a>
+            </div>
+        </section>
+        
+        <!-- Need Ideas Section -->
+        <section class="need-ideas">
+            <div class="need-ideas__background">
+                <img src="images/ideas.jpg" alt="Iron door gallery preview" class="need-ideas__background-image" loading="lazy">
+            </div>
+            <div class="container need-ideas__content reveal">
+                <h2 class="need-ideas__title">Need Ideas?</h2>
+                <p class="need-ideas__text">
+                    Check out our gallery to see what types of doors we've done in the past! 
+                    Be on the lookout for jamb shapes, transoms, sidelights and overall door designs 
+                    that you like, and we'll fit them to your door system!
+                </p>
+                <a href="#gallery" class="btn btn-outline-light">Check Our Gallery</a>
             </div>
         </section>
         
@@ -503,43 +530,45 @@
             <div class="container">
                 <div class="gallery__header reveal">
                     <span class="section-subtitle">Our Work</span>
-                    <h2 class="section-title">Project Gallery</h2>
-                    <p class="section-description">Browse through our completed projects and find inspiration for your home.</p>
+                    <h2 class="section-title">Door Gallery</h2>
+                    <p class="section-description" style="margin: 0 auto;">Browse through our completed projects and find inspiration for your home.</p>
                 </div>
                 <div class="gallery__grid">
-                    <div class="gallery__item gallery__item--large reveal"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Completed iron door project" loading="lazy"><div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div></div>
-                    <div class="gallery__item reveal"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Iron door detail" loading="lazy"><div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div></div>
-                    <div class="gallery__item reveal"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Modern iron door" loading="lazy"><div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div></div>
-                    <div class="gallery__item reveal"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&q=80" alt="Traditional iron door" loading="lazy"><div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div></div>
-                    <div class="gallery__item reveal"><img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&q=80" alt="Ornate iron pattern" loading="lazy"><div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div></div>
-                </div>
-                <div class="gallery__cta reveal"><a href="#" class="btn btn-outline">See All Projects</a></div>
-            </div>
-        </section>
-        
-        <!-- Testimonials Section -->
-        <section class="testimonials">
-            <div class="container">
-                <div class="testimonials__header reveal">
-                    <span class="section-subtitle">Testimonials</span>
-                    <h2 class="section-title">What Our Clients Say</h2>
-                </div>
-                <div class="testimonials__slider reveal">
-                    <div class="testimonial">
-                        <div class="testimonial__quote-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
-                        <p class="testimonial__text">"The quality and craftsmanship of our new iron door exceeded all expectations. Titan Iron Works transformed our home's entrance into a true masterpiece. Highly recommended!"</p>
-                        <div class="testimonial__author">
-                            <span class="testimonial__author-name">Michael & Sarah Johnson</span>
-                            <span class="testimonial__author-title">Homeowners, Dallas TX</span>
-                            <div class="testimonial__stars">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                            </div>
-                        </div>
+                    <div class="gallery__item gallery__item--large reveal">
+                        <img src="images/d-1 (1).webp" alt="Custom ornamental iron door - arched design" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
                     </div>
+                    <div class="gallery__item reveal">
+                        <img src="images/d-1 (10).webp" alt="Iron entry door with glass panels" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+                    </div>
+                    <div class="gallery__item reveal">
+                        <img src="images/d-1 (11).webp" alt="Double iron door installation" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+                    </div>
+                    <div class="gallery__item reveal">
+                        <img src="images/d-1 (12).webp" alt="Elegant wrought iron door" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+                    </div>
+                    <div class="gallery__item reveal">
+                        <img src="images/d-1 (13).webp" alt="Modern iron door design" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+                    </div>
+                    <div class="gallery__item reveal">
+                        <img src="images/d-1 (17).webp" alt="Traditional iron door with sidelights" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+                    </div>
+                    <div class="gallery__item reveal">
+                        <img src="images/d-1 (15).webp" alt="Custom iron door with transom" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+                    </div>
+                    <div class="gallery__item reveal">
+                        <img src="images/d-1 (16).webp" alt="Ornate iron entry system" loading="lazy">
+                        <div class="gallery__item-overlay"><div class="gallery__item-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+                    </div>
+                </div>
+                <div class="gallery__cta reveal">
+                    <a href="custom-doors.html" class="btn btn-outline">View Full Gallery</a>
                 </div>
             </div>
         </section>
@@ -553,21 +582,21 @@
                     <p class="section-description">Ready to transform your entrance? Contact us today for a free consultation and quote.</p>
                     <div class="contact__details">
                         <div class="contact__detail">
-                            <div class="contact__detail-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                            <div class="contact__detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
                             <div class="contact__detail-content"><h4>Phone</h4><a href="tel:+12146503799">(214) 650-3799</a></div>
                         </div>
                         <div class="contact__detail">
-                            <div class="contact__detail-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                            <div class="contact__detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
                             <div class="contact__detail-content"><h4>Email</h4><a href="mailto:contacto@ironworks.com">contacto@ironworks.com</a></div>
                         </div>
                         <div class="contact__detail">
-                            <div class="contact__detail-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                            <div class="contact__detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
                             <div class="contact__detail-content"><h4>Service Area</h4><p>Dallas-Fort Worth Metroplex</p></div>
                         </div>
                     </div>
                     <div class="contact__socials">
-                        <a href="https://www.facebook.com/TITAN-Ironworks" class="contact__social" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-                        <a href="https://wa.me/2146503799" class="contact__social" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.49l4.574-1.2A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.17 0-4.182-.656-5.864-1.782l-.42-.249-2.717.712.726-2.65-.274-.436A9.79 9.79 0 0 1 2.182 12c0-5.422 4.396-9.818 9.818-9.818S21.818 6.578 21.818 12 17.422 21.818 12 21.818z"/></svg></a>
+                        <a href="https://www.facebook.com/TITAN-Ironworks" class="contact__social" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="https://wa.me/2146503799" class="contact__social" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.49l4.574-1.2A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.17 0-4.182-.656-5.864-1.782l-.42-.249-2.717.712.726-2.65-.274-.436A9.79 9.79 0 0 1 2.182 12c0-5.422 4.396-9.818 9.818-9.818S21.818 6.578 21.818 12 17.422 21.818 12 21.818z"/></svg></a>
                     </div>
                 </div>
                 <div class="contact__form-wrapper reveal">
@@ -577,7 +606,7 @@
                         <div class="form__group"><label for="email" class="form__label">Email Address *</label><input type="email" id="email" name="email" class="form__input" placeholder="john@example.com" required autocomplete="email"></div>
                         <div class="form__group"><label for="phone" class="form__label">Phone Number</label><input type="tel" id="phone" name="phone" class="form__input" placeholder="(214) 555-0123" autocomplete="tel"></div>
                         <div class="form__group"><label for="message" class="form__label">Your Message *</label><textarea id="message" name="message" class="form__textarea" placeholder="Tell us about your project..." required></textarea></div>
-                        <button type="submit" class="form__submit">Send Message <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 0.5rem;"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></button>
+                        <button type="submit" class="form__submit">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -587,31 +616,25 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer__container">
-            <div class="footer__top">
-                <div class="footer__logo">
-                    <svg width="40" height="40" viewBox="0 0 50 50" fill="none"><rect x="2" y="2" width="46" height="46" stroke="#c9a962" stroke-width="2"/><path d="M25 10L40 25L25 40L10 25L25 10Z" fill="none" stroke="#c9a962" stroke-width="1.5"/></svg>
-                    <span class="footer__logo-text">TITAN <span>Iron Works</span></span>
-                </div>
-                <nav class="footer__nav" aria-label="Footer navigation">
-                    <a href="#home" class="footer__nav-link">Home</a>
-                    <a href="#about" class="footer__nav-link">About</a>
-                    <a href="#doors" class="footer__nav-link">Doors</a>
-                    <a href="#gallery" class="footer__nav-link">Gallery</a>
-                    <a href="#contact" class="footer__nav-link">Contact</a>
-                </nav>
-            </div>
-            <div class="footer__bottom"><p class="footer__copyright">© 2024 Titan Iron Works. All rights reserved.</p></div>
+            <img src="images/logo.webp" alt="Titan Iron Works" class="footer__logo">
+            <nav class="footer__nav" aria-label="Footer navigation">
+                <a href="#home" class="footer__nav-link">Home</a>
+                <a href="#classic" class="footer__nav-link">Classic Doors</a>
+                <a href="#custom" class="footer__nav-link">Custom Doors</a>
+                <a href="#gallery" class="footer__nav-link">Gallery</a>
+                <a href="#contact" class="footer__nav-link">Contact</a>
+            </nav>
+            <p class="footer__copyright">© 2024 Titan Iron Works. All rights reserved.</p>
         </div>
     </footer>
     
     <!-- WhatsApp Float -->
     <a href="https://wa.me/2146503799?text=Hello!%20I'm%20interested%20in%20your%20iron%20doors." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
         <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        <span class="whatsapp-float__tooltip">Chat with us!</span>
     </a>
     
     <script>
-        // Header scroll
+        // Header scroll effect
         const header = document.getElementById('header');
         window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.pageYOffset > 50); });
         
@@ -619,26 +642,43 @@
         const menuToggle = document.querySelector('.menu-toggle');
         const mobileNav = document.getElementById('mobileNav');
         const mobileNavLinks = document.querySelectorAll('.mobile-nav__link');
+        
         menuToggle.addEventListener('click', () => {
             menuToggle.classList.toggle('active');
             mobileNav.classList.toggle('active');
             document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
             menuToggle.setAttribute('aria-expanded', menuToggle.classList.contains('active'));
         });
-        mobileNavLinks.forEach(link => { link.addEventListener('click', () => { menuToggle.classList.remove('active'); mobileNav.classList.remove('active'); document.body.style.overflow = ''; }); });
+        
+        mobileNavLinks.forEach(link => { 
+            link.addEventListener('click', () => { 
+                menuToggle.classList.remove('active'); 
+                mobileNav.classList.remove('active'); 
+                document.body.style.overflow = ''; 
+            }); 
+        });
         
         // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
-                if (target) { window.scrollTo({ top: target.getBoundingClientRect().top + window.pageYOffset - header.offsetHeight, behavior: 'smooth' }); }
+                if (target) { 
+                    window.scrollTo({ 
+                        top: target.getBoundingClientRect().top + window.pageYOffset - header.offsetHeight, 
+                        behavior: 'smooth' 
+                    }); 
+                }
             });
         });
         
         // Scroll reveal
         const revealElements = document.querySelectorAll('.reveal');
-        const revealOnScroll = () => { revealElements.forEach(el => { if (el.getBoundingClientRect().top < window.innerHeight - 150) el.classList.add('active'); }); };
+        const revealOnScroll = () => { 
+            revealElements.forEach(el => { 
+                if (el.getBoundingClientRect().top < window.innerHeight - 100) el.classList.add('active'); 
+            }); 
+        };
         window.addEventListener('scroll', revealOnScroll);
         window.addEventListener('load', revealOnScroll);
         
@@ -656,14 +696,12 @@
         
         // Form
         const contactForm = document.getElementById('contactForm');
-        if (contactForm) { contactForm.addEventListener('submit', function(e) { e.preventDefault(); alert('Thank you for your message! We will get back to you shortly.'); this.reset(); }); }
-        
-        // Reduce motion
-        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            document.documentElement.style.scrollBehavior = 'auto';
-            const style = document.createElement('style');
-            style.textContent = '*, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }';
-            document.head.appendChild(style);
+        if (contactForm) { 
+            contactForm.addEventListener('submit', function(e) { 
+                e.preventDefault(); 
+                alert('Thank you for your message! We will get back to you shortly.'); 
+                this.reset(); 
+            }); 
         }
     </script>
 </body>
