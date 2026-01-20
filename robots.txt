@@ -1,0 +1,40 @@
+# robots.txt para Titan Iron Works
+# https://www.titanironworks.com
+
+User-agent: *
+Allow: /
+Disallow: /phone/
+Disallow: /scripts/
+
+# Sitemaps
+Sitemap: https://www.titanironworks.com/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Social Media Crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Disallow bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

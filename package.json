@@ -1,0 +1,38 @@
+{
+  "name": "titanironworks",
+  "version": "1.0.0",
+  "description": "Sitio web profesional para Titan Iron Works - Puertas ornamentales de hierro forjado",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=index.html",
+    "build:css": "echo 'CSS optimization pending'",
+    "build:html": "echo 'HTML minification pending'",
+    "build": "npm run build:css && npm run build:html",
+    "validate:html": "npx html-validate index.html custom-doors.html",
+    "optimize:images": "echo 'Images already optimized to WebP'",
+    "lighthouse": "npx lighthouse https://localhost:8000 --view",
+    "deploy:gh-pages": "git push origin master"
+  },
+  "keywords": [
+    "iron-doors",
+    "wrought-iron",
+    "ornamental-iron",
+    "custom-doors",
+    "dallas",
+    "fort-worth",
+    "texas",
+    "metalwork"
+  ],
+  "author": {
+    "name": "Cesar Gomez",
+    "email": "00.13.zkr@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgomezoc/titanironworks.git"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
